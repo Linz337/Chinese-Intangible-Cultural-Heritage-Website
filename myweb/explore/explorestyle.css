@@ -1,0 +1,81 @@
+.artskill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.part-content {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.part-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Style the video container */
+.video-container {
+    flex: 1;
+    /* 视频容器占据1/2的宽度 */
+    margin-right: 20px;
+}
+
+/* Style the video element */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the controls */
+.video-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.part-item+div {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.part-introduction {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.part-text {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .part-content {
+        flex-direction: column;
+    }
+
+    .video-container,
+    .part-introduction {
+        width: 100%;
+    }
+
+    /* .part-item,
+    .part-item+div {
+        width: 100%;
+    } */
+
+    .video-controls {
+        display: block;
+        margin-top: 10px;
+    }
+
+}
+
+button,
+input {
+    margin: 5px;
+}
