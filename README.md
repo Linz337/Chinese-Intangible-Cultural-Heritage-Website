@@ -1,5 +1,5 @@
 # Chinese Intangible Cultural Heritage
-6780-ass my web: Chinese Intangible Cultural Heritage\
+my web: Chinese Intangible Cultural Heritage\
 Welcome to the repository for the "Chinese Intangible Cultural Heritage" web application. This project is designed to promote and educate users about the rich intangible cultural heritage of China.
 
 ## Project Description
